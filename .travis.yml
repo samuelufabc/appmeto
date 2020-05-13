@@ -7,6 +7,9 @@ script:
 - npm test
 deploy:
   provider: heroku
+  api_key:
+    secure: iCwBFTg9SnrIK9eO1/geED6jG2zBH56CecUyOVkjnbZjKkrWQUM50Se+kL7b3ZWGz6Ar5nJwlOjnyaWdXf6As42pZBKxLG7VDldfNjZQRPL05GoIdo5n4R2e/Mf8FKlqw0QQyAviJHGEFadtZKgxjyIVY1Zjb0w6i1yYiFucStN2SCpo0XC9ZzBjYm5CfVolq4KcSxETWtvXup5i706JBik4DgHgI9IUPmsKidkHVkMULiKdnLvR+TZlhqqHJ9Ro91AU57hjYVkFLPXBgcJgur4GnAu0seLI/U1Zrosnei7iRv4Iu4WqTUjoYGv+UhjGuqzCagudRxad20Bnew3XkUT3so27pPShAoc1XbLKA5slSzpAPRZ3W4uwAU4N3c0tMVoZzjzwaPJxlHcY4royK3ru3473ORiO2FWKXV3fntUETHVFhWpHgyisv/ZmZIGUCU/al9lFiXR9/5y52mRjiVOenPiy05lAO6uQ9cwaDcXrb/49m4ZxrEbn+qpX4GeQBXVOqeeekNME9XGr9jCEAJTM93s+wm/39eiQDns0Qy9qClxNnXCXjuCwmfL54cUnLAnCGnWs+6QLCcRUzj9MLY5KdeXuHdFXsWWQbzPHeQhI0bTNZWuhr3T/+wQuIZJuXWNuwaBJ8l7+OM1LCZObw76JeKhd9CcXWa1Laqnu8Lk=
   app: appmeto
   on:
     repo: samuelufabc/appmeto
+  skip_cleanup: 'true'
